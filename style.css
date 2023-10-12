@@ -1,31 +1,49 @@
 * {
     font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-color: rgb(237, 136, 248);
 }
 
 
-.icon-buscador{
-/* usamos display inline block porque queremos que esten pegadiyos la parte de 
+
+body{
+padding:0px ;
+margin: 0px;
+}
+
+.icon-buscador {
+    /* usamos display inline block porque queremos que esten pegadiyos la parte de 
 inline y block para que laspropiedades de widt y heigth sigan haciendo efecto y hagan
 mi icono pequeño */
-display: inline-block;
-width: 24px;
-height: 24px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
 }
+
 ul {
     list-style-type: none;
 }
+
+
+
 
 header ul li {
     display: inline;
     /* padding: 8px; */
     /* padding: 8px 24px; */
     /* padding: 8px 24px 40px 60px; */
-    padding: 4px;
+    padding: 20px;
+
+
+
 }
 
 footer ul {
     display: inline-block;
-    margin: 15px 12px;
+    margin: 12px 30px;
 }
 
 footer ul li {
@@ -33,9 +51,32 @@ footer ul li {
     /* padding: 8px; */
     /* padding: 8px 24px; */
     /* padding: 8px 24px 40px 60px; */
-    padding: 15px;
+    padding: 18px;
 }
 
+header {
+    height: 8vh;
+}
+main{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height:auto;
+}
+
+.btn-buscador{
+    border: black solid 1px;
+}
+#input-buscador{
+    outline: none;
+    border: none;
+}
 /*
 main {
     height: ;
@@ -43,4 +84,4 @@ main {
 align text
 float
 unidades de medida
-*/ 
+*/
