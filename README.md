@@ -1,2 +1,7 @@
-# clon-google
-clonde google Proyecto realizado con la intencion de aplicar los conocimientos obtenidos en el bootcamp de Tecnolochicas PRO sabatino
+## indice
+
+1. intro
+2. demo
+3. que construimos 
+4. objetivos de aprendizaje
+5. requerimientos
